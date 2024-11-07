@@ -1,6 +1,6 @@
 from random import randint
 from time import sleep
-c = randint(0, 5)
+c = randint(0, 10)
 v1 = 0
 
 print('-='*20)
