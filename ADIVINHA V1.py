@@ -20,6 +20,8 @@ if v1 in "Ss":
     print('Pensando em um numero...')
     sleep(2)
     v2 = int(input(f'pronto, qual o seu palpite? '))
+    if v2 > 10:
+        v2 = int(input(f'Por favor, escolha um numero entre 0 e 10! '))
     while v2 != c:
         if v2 > c:
             print('Quase! Meu numero é menor!')
